@@ -27,7 +27,7 @@ $quilowatts = $_GET["quilowatts"];
 
 echo "Conta de luz de: <h1>$nomeCompleto </h1>";
 echo "Rua: <h1>$rua </h1>";
-echo "Conta de luz de: <h1>$numero </h1>";
+echo "Número: <h1>$numero </h1>";
 
 if($quilowatts <= 120){
     $valorTotal = $quilowatts*0.32;
